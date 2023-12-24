@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Pre-final</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Darker+Grotesque:wght@500;700&family=IBM+Plex+Mono:wght@100&family=Raleway:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&family=Darker+Grotesque:wght@400;500;700&family=IBM+Plex+Mono:wght@100&family=Raleway:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/index.css">
+    <script defer src="JS/index.js"></script>
+</head>
+
+<body>
+
+        <!-- BARRA NAV CON JS !!!!!!!!!! - Para repetirlo en todas las pags-->
+
+    <!-- Barra de navegación -->
+    <header> 
+        <nav class="nav-bar">
+            <div class="nav-bar_logo">
+                <img loading="lazy" src="../assets/img/LOGO-Limlondon-white.svg" alt="logo"> 
+            </div>
+            <div class="nav-bar_links">
+                <a href="../course.html">Course</a>
+                <a href="../about.html">About</a>
+                <a href="#popup-ov">Contact</a>
+                <a href="#">Blog</a>
+                <a class="bar_btn" href="#">Apply now</a>
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path></svg>
+            </div>
+        </nav>
+    </header>
+    <!-- RECORDATORIO: Hacer position con COOKIES ESQUINA DERECHA -->
+    
+    <!-- Menú desplegable para responsive -->
+    <button onclick="popup()">Abrir menu</button>
+
+            <!-- Menu -->
+            <div id="popup-ov-menu">
+                <h2>Menú</h2>
+                    <ul>
+                        <li>Home</li>
+                        <li>Course</li>
+                        <li>About</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
+            </div>
+
+
+    <!-- 1er BLOQUE HOME - MAIN -->
+
+    <section class="container-background">
+            <main class="container-main">
+                <div class="container-main_text">
+                    <h1>Online music <br>
+                        production <br>
+                        courses</h1>
+                    <p>Master essential music <br>
+                        production skills via interactive <br>
+                        learning in under three months.</p>
+                    <div class="container-main_btns">
+                        <a class="btn1" href="#">Apply now</a>
+                        <a class="btn2" href="#">Book your call</a>
+                    </div>
+                </div>
+            </main>              
+    </section>
+
+
+
+    <!--  2º BLOQUE HOME - Book + img -->
+
+    <section class="container-book">
+        <div class="container-book_text">
+            <h2>From <span style="color: #ae9ffe;">amateur</span> to 
+                <span style="color: #ae9ffe;">professional</span> in 
+                music production</h2>
+            <p>At LIM our goal is to deliver a distinctive skill set to provide music producers with the ability to write their <b>own</b> music at industry standard.</p>
+            <div class="container-book_btns">
+                <a class="btn1" href="#">Book now</a>
+                <a class="btn2" href="#">Learn more</a>
+            </div>
+        </div>
+
+        <div class="container-book_img">
+            <img src="../assets/img/imagen-home-book.png" alt="imgbook">
+        </div>
+
+    </section>
+
+    <!--  3º BLOQUE HOME - The course -->
+
+    <section class="container-course">
+        <div>
+            <p>The Course</p>
+            <h1>Interactive <br>
+                Online <br>
+                Lessons</h1>
+            <p>Unlock your music production skills in a real-time & <br>interactive classroom with your peers and your tutor.</p>
+            <a href="#">Learn more</a>
+        </div>
+    </section>
+
+
+    <!-- 4º BLOQUE HOME - Carrusel imágenes         
+        
+                                            CAMBIAR TEXTOS REPETIDOS-->
+    <section class="container-carousel">
+            <div class="container-inner">
+                <div class="container-inner_img">
+                    <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e031d3f00f65_slide_1.webp" alt="img1">
+                    <p>Navigate Ableton Live 11 for
+                        creating, recording, editing and
+                        mixing music</p>
+                </div>
+                <div class="container-inner_img">
+                    <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e04f0df00fa2_slide_3.webp" alt="img3">
+                    <p>Confidently implement ideas
+                        using music production
+                        techniques</p>
+                </div>
+                <div class="container-inner_img">
+                    <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e012a4f00f95_slide_4.webp" alt="img4">
+                    <p>Confidently implement ideas using music production techniques</p>
+                </div>
+                <div class="container-inner_img">
+                    <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e01787f00fa1_slide_5.webp" alt="img5">
+                    <p>Confidently implement ideas using music production techniques</p>
+                </div>
+                <div class="container-inner_img">
+                    <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e02798f00f97_slide_6.webp" alt="img6">
+                    <p>Confidently implement ideas using music production techniques</p>
+                </div>
+                <div class="container-inner_img">
+                    <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e006f6f00f9f_slide_7.webp" alt="img6">
+                    <p>Confidently implement ideas using music production techniques</p>
+                </div>
+                <div class="container-inner_img">
+                    <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e038baf00fa0_slide_8.webp" alt="img6">
+                    <p>Confidently implement ideas using music production techniques</p>
+                </div>
+                <div class="container-inner_img">
+                    <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e077e5f00f94_slide_9.webp" alt="img6">
+                    <p>Confidently implement ideas using music production techniques</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 5º BLOQUE HOME -  Container structure course -->
+
+    <section class="container-structurecourse">
+        <div class="container-structurecourse_part1">
+            <p><span style="color: #000000;">Structure of the course</span></p>
+            <h1>A<span style="color: #ae9ffe;"> three-module</span><br>
+                course</h1>
+            <p>Over the course you will be taught a total of <b><span style="color: #000000;">108 hours</span></b> in <b><span style="color: #000000;">3 months</span><b> of real-time classroom lessons - of which 36 hours will consist of practical exercises. This will be supported by detailed feedback and delivery of educational & practical material, as well as reading resources.</p>
+        </div>
+
+        <div class="container-structurecourse_part2">
+            <h3><b>3 </b><span style="color: #ae9ffe;">hours /</span><br><span style="font-size: 2.5rem;">Day</span></h3>
+            <h3><b>3 </b><span style="color: #ae9ffe;">days /</span><br><span style="font-size: 2.5rem;">Week</span></h3>
+            <h3><b>3 </b><span style="color: #ae9ffe;">months /</span><br><span style="font-size: 2.5rem;">Year</span></h3>
+        </div>
+
+        <div class="container-structurecourse_btns">
+            <a class="btn1" href="#">Learn more</a>
+            <a class="btn2" href="#">Book your call</a>
+        </div>
+    </section>
+
+
+
+    <!-- 6º BLOQUE HOME -  Container 3 boxes -->
+
+    <section class="container-boxes">
+        <div class="container-boxes_box1 box">
+            <h3>Music <br>Composition</h3>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div class="container-boxes_box2 box">
+            <h3>Music <br>Production</h3>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div class="container-boxes_box3 box">
+            <h3>Mixing</h3>
+            <a href="#">Learn more</a>
+        </div>
+    </section>
+
+
+
+    <!-- 7º BLOQUE HOME -  TESTIMONIAL CARDS -->
+
+    <section class="container-testimonial-header">
+        <h2>Real people <br>real <span style="color: #ae9ffe;">results</span></h2>
+
+        <!-- Cartas de testimonios -->
+
+        <div class="container-testimonial-cards_col">
+
+            <div class="container-testimonial-cards_col-block card1">
+                <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e02681f00fab_1.webp" alt="image">
+                <p>“I’m very happy with what I’ve learned from Dylan. He’s not only passionate and dedicated to teaching, but manages to make the learning process fun.”</p>
+                <h4>George</h4>
+            </div>
+
+            <div class="container-testimonial-cards_col-block card2">
+                <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e06a0af00fad_6.webp" alt="image">
+                <p>“Dylan is a great collaborator. He’s very detail-oriented, while still able to keep in mind the bigger picture. He’s a really effective communicator, which makes him a pleasure to work with.”</p>
+                <h4>Miles</h4>
+            </div>
+ 
+            <div class="container-testimonial-cards_col-block card3">
+                <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e0c427f00faa_2.webp" alt="image">
+                <p>“Dylan is professional, knowledgeable and a great person to work with. He cares about people and about the process. He would always go the extra mile. I would highly recommend working with him.”</p>
+                <h4>Gili</h4>
+            </div>
+
+            <div class="container-testimonial-cards_col-block card4">
+                <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e02029f00fa8_3.webp" alt="">
+                <p>”I had the opportunity to work with Dylan, a very professional and talented guy, who was always on the spot and ready to help where he could. His attention to detail is something that I admired a lot.”</p>
+                <h4>Graze</h4>
+            </div>
+
+            <div class="container-testimonial-cards_col-block card5">
+                <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e01e05f00fae_7.webp" alt="image">
+                <p>“Working with Dylan really helped me gain clarity on difficult topics like mixing. He was not only insightful but very motivational and encouraging. I can't recommend him enough!”</p>
+                <h4>Vizenzo</h4>
+            </div>
+
+            <div class="container-testimonial-cards_col-block card6">
+                <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e08036f00fc5_8.webp" alt="image">
+                <p>“Dylan was professional, easy to work with and knows his craft well. He is quick, knowledgeable and supported my creative process which I appreciate highly. It was a pleasure to work with him and I would be happy to refer back to him in future.”</p>
+                <h4>Ramon</h4>
+            </div>
+
+            <div class="container-testimonial-cards_col-block card7">
+                <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e00e5af00fa9_4.webp" alt="image">
+                <p>“Dylan isn't simply a great teacher but someone who transmits his passion for music. He explains complicated topics in a simplified and effective manner.”</p>
+                <h4>Fabrizio</h4>
+            </div>
+
+            <div class="container-testimonial-cards_col-block card8">
+                <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e042bff00fc3_9.webp" alt="image">
+                <p>“Dylan has this ability to be very meticulous and organised, while maintaining a super spontaneous and creative energy. There's something very captivating about him that naturally motivates you to do your best. His work ethic never lets you do anything halfway.”</p>
+                <h4>Antoine</h4>
+            </div>
+
+            <div class="container-testimonial-cards_col-block card9">
+                <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e0576ff00fac_5.webp" alt="image">
+                <p>”I had an amazing experience working with Dylan. He is extremely talented and always up to the point without wasting time. A great character with lots of experience in the industry. He definitely helped me a lot in many aspects of my music career.”</p>
+                <h4>Kostas</h4>
+            </div>
+
+            <div class="container-testimonial-cards_col-block card10">
+                <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e00948f00fc4_10.webp" alt="image">
+                <p>“I had the pleasure of knowing and working with Dylan. He has proven to be a precise, helpful and passionate person. I believe his course will reflect all these characteristics.”</p>
+                <h4>Mario</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8º BLOQUE FAQS -->
+
+    <section class="container-questions">     <!-- Título -->
+        <div class="container-questions-title">
+          <h1>Got a question?</h1>
+        </div>
+        <hr>
+        <div class="container-questions-faqs"> <!-- Pregunta 1 -->
+            <div class="desplegable-items"> 
+                <div>    
+                    <h4>What does a typical week at LIM look like?</h4>
+                    <p class="item" id="item1">Our course is composed of 3 hours evening classes 3 times per week. Everything is online - live and in real-time. Classes usually take place from Tuesday to Thursday.</p>
+                </div>
+                <div class="toggle-icon" onclick="toggleIcon(this)">
+                    <svg class="plus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg>
+                    <svg class="minus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 13H5v-2h14v2z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container-questions-faqs"> <!-- Pregunta 2 -->
+            <div class="desplegable-items"> 
+                <div>    
+                    <h4>Is the course right for me?</h4>
+                    <p class="item" id="item2">Our course is a professional training course that takes you from amateur level to industry standard. It is ideal for someone who is a beginner or is approaching music production for the first time. If you're an intermediate student, this course will help you get rid of bad habits and provide your workflow with a clear structure.</p>
+                </div>
+                <div class="toggle-icon" onclick="toggleIcon(this)">
+                    <svg class="plus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg>
+                    <svg class="minus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 13H5v-2h14v2z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+
+        <div class="container-questions-faqs"> <!-- Pregunta 3 -->
+            <div class="desplegable-items"> 
+                <div>    
+                    <h4>When do I apply for LIM?</h4>
+                    <p class="item" id="item3">There are 2 intakes per year, which start in February and September. Our classes are small with a maximum of 10 spaces for each intake. We recommend getting in touch as soon as you can, given that our courses are usually in demand in advance of the application. The deadline is usually 2 weeks before the start of the course, but we may consider later applications depending on availability.</p>
+                </div>
+                <div class="toggle-icon" onclick="toggleIcon(this)">
+                    <svg class="plus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg>
+                    <svg class="minus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 13H5v-2h14v2z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container-questions-faqs"> <!-- Pregunta 4 -->
+            <div class="desplegable-items"> 
+                <div>    
+                    <h4>Do I need to buy software & equipment to take the course?</h4>
+                    <p class="item" id="item4">Yes. To follow the lessons and complete practical exercises - as well as for your independent learning - you will need to have access to Ableton Live 11 (minimum Standard edition) and a MIDI keyboard. Ableton currently offers a trial period for the Suite edition for 90 days (3 months). Visit the link in the course section for more info.</p>
+                </div>
+                <div class="toggle-icon" onclick="toggleIcon(this)">
+                    <svg class="plus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg>
+                    <svg class="minus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 13H5v-2h14v2z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container-questions-faqs"> <!-- Pregunta 5 -->
+            <div class="desplegable-items"> 
+                <div>    
+                    <h4>How do I pay for the course?</h4>
+                    <p class="item" id="item5">Once you apply for the course, you will be taken to the check out area. Here you can decide if you want to pay fully up front or in 3 installments. You can also pay by bank transfer. You'll find all the details at check out.</p>
+                </div>
+                <div class="toggle-icon" onclick="toggleIcon(this)">
+                    <svg class="plus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg>
+                    <svg class="minus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 13H5v-2h14v2z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container-questions-faqs"> <!-- Pregunta 6 -->
+            <div class="desplegable-items"> 
+                <div>    
+                    <h4>Will I receive a certificate at the end of the course?</h4>
+                    <p class="item" id="item6">Yes. At the end of the course you will receive a certificate stating the completion of the course. However, LIM is not accredited by any university or higher education programme. It’s a strictly practical training.</p>
+                </div>
+                <div class="toggle-icon" onclick="toggleIcon(this)">
+                    <svg class="plus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg>
+                    <svg class="minus-icon icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                    <path d="M19 13H5v-2h14v2z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+      </section>
+
+
+
+        <!-- 9º BLOQUE - Reservar CTA -->
+
+        
+        <section class="container-prices">
+            <div class="container-prices-title">
+                <h2>Book your musical <br>journey <span style="color: #ae9ffe;">now</span></h2>
+            </div>
+            <div class="container-prices-title2">
+                <a href="#"><h4>See all our prices</h4></a>
+            </div>
+  
+        </section>
+    </section>
+
+
+
+
+    <!-- POP UP - PÁGINA CONTACT                                      
+                HACER EN JS PARA QUE SE REPITA EN TODAS LAS PAGS -->
+
+        <section id="popup-ov"> <!--Overlay-->
+            <div class="popup-regular"> <!--popup-->
+                <a class="close-popup" href="#">×</a>
+   
+                <div class="blocks">
+                    <div class="block-popup"> <!--Bloque izquierda form-->
+                        <h4>Got a question?</h4>
+                        <h4>Contact us</h4>
+                        <div>
+                            <form class="form-popup" action="" method=""> <!--popup_form-->
+                                <div class="form-popup-block"> <!--form_block-->
+                                    <input class="form-text" type="text" placeholder="Name">
+                                    <input class="form-text" type="text" placeholder="Your e-mail">
+                                </div>
+
+                                <textarea class="form-message" cols="30" rows="6" id="message" name="message" placeholder="Ask what you need."></textarea>
+
+                                <input class="btn-popup-end" type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="block-popup-img"> <!--Bloque derecha - IMG-->
+                        <img src="https://assets-global.website-files.com/636e0fdd5df0e013bbf00f38/636e0fdd5df0e0d0ccf00f85_contact-image.webp" alt="">
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+
+
+
+    <footer class="footer"><!-- Falta hacer + Crear en JS para todas las páginas -->
+
+        <div class="footer-blocks">
+            <!-- Bloque 1 (izquierda)-->
+            <div class="footer-block1">
+                <div class="footer-text-first">
+                    <p><span style="color: #000000;">Got a question?</span></p>
+                    <p><span style="color: white;">Contact us</span></p>
+                </div>
+                <div class="footer-rrss">
+                    <!-- Icono Instagram -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1); transform: none;">
+                        <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path>
+                        <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                        <path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path>
+                      </svg>
+
+                    <!-- Icono TikTok -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1); transform: none;">
+                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"></path>
+                      </svg>
+                     
+                    <!-- Icono YouTube   -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1); transform: none;">
+                        <path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"></path>
+                    </svg>
+                    
+                </div>
+            </div>
+
+            <!-- Bloque 2 (centro)-->
+            <div class="footer-block2">
+                <p>© 2023 Lim • Privacy Policy • Terms & Conditions • Legal</p>
+            </div>
+
+            <div class="footer-block3">
+                <p>Design <span style="color: white;">sentempo</span></p> 
+                <p>Dev <span style="color: white;">Saisei Media</span></p>
+            </div>
+
+
+        </div>
+    </footer>
+  
+
+
+  
+</body>
+</html>
+
